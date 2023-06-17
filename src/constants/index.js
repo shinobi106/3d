@@ -138,19 +138,7 @@ import {
     //     "Participating in code reviews and providing constructive feedback to other developers.",
     //   ],
     // },
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
+    
     {
       title: "React.js Developer",
       company_name: "Freelance",
@@ -164,33 +152,46 @@ import {
         "Used EJS to create reusable code",
       ],
     },
+    {
+      title: "React.js Developer",
+      company_name: "Meta",
+      icon: meta,
+      iconBg: "#383E56",
+      date: "May 2023 - Present",
+      points: [
+        "Developing and maintaining an NGO Webiste for Saroj Foundation",
+        "Styling Components using SCSS",
+        "Used VITE + REACT for better speed",
+        "Full Website for Saroj Foundation in USA!",
+      ],
+    },
   ];
   
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "I thought it was impossible to make a website as beautiful as our product, but Arnav proved me wrong.",
+      name: "Ritu Tyagi",
+      designation: "Founder",
+      company: "Saroj Foundation",
+      image: "https://www.sarojfoundationusa.org/img/profile.jpeg",
     },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    // {
+    //   testimonial:
+    //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    //   name: "Chris Brown",
+    //   designation: "COO",
+    //   company: "DEF Corp",
+    //   image: "https://randomuser.me/api/portraits/men/5.jpg",
+    // },
+    // {
+    //   testimonial:
+    //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    //   name: "Lisa Wang",
+    //   designation: "CTO",
+    //   company: "456 Enterprises",
+    //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+    // },
   ];
   
   const projects = [
@@ -238,16 +239,16 @@ import {
       source_code_link: "https://github.com/shinobi106",
     },
     {
-      name: "&witch",
+      name: "Saroj Foundation Website",
       description:
-        "A Real Time Chat App using React, React Router, Mui as front end. Firebase Auth as a backend",
+        "A Front end NGO Website built using reactjs which uses vite, SCSS and javascript, this website is in progress and I regularly update it",
       tags: [
         {
           name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "firebase",
+          name: "vite",
           color: "green-text-gradient",
         },
         {
@@ -256,7 +257,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/shinobi106",
+      source_code_link: "https://www.sarojfoundationusa.org/",
     },
   ];
   
