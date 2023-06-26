@@ -154,12 +154,12 @@ import {
     },
     {
       title: "React.js Developer",
-      company_name: "Meta",
+      company_name: "FreeLance",
       icon: meta,
       iconBg: "#383E56",
       date: "May 2023 - Present",
       points: [
-        "Developing and maintaining an NGO Webiste for Saroj Foundation",
+        "Developing and maintaining an NGO Website for Saroj Foundation",
         "Styling Components using SCSS",
         "Used VITE + REACT for better speed",
         "Full Website for Saroj Foundation in USA!",
