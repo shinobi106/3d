@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    contrast,
   } from "../assets";
   
   export const navLinks = [
@@ -196,6 +197,31 @@ import {
   
   const projects = [
     {
+      name: "Contrast",
+      description:
+        "Create communities, share, discuss and connect with Contrast",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Prisma",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "MySQL",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: contrast,
+      source_code_link: "https://contrast-gamma.vercel.app",
+    },
+    {
       name: "fightClub",
       description:
         "MERN Stack Social Media Website using formik Mongoose, React, Nodejs, vanilla javascript With Features like Posting your photos, adding friends, feedpost",
@@ -259,6 +285,7 @@ import {
       image: tripguide,
       source_code_link: "https://www.sarojfoundationusa.org/",
     },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };
